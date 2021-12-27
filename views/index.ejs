@@ -1,0 +1,143 @@
+ <!-- header -->
+
+ <%- include('./partials/header') %> 
+
+ <!-- header -->
+
+<body>
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <img src="images/hero-bg.png" alt="">
+    </div>
+    <!-- navbar -->
+
+      <%- include('./partials/navbar') %> 
+
+    <!-- navbar -->
+
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="detail-box">
+                    <h1>
+                      What is Insight360?
+                    </h1>
+                    <p style="font-size: 20px;">
+                      Insight360 identifies multiple diseases such as Diabetic retinopathy (DR), Media Haze (MH), Optic disc cupping (ODC) using retinal fundus images and displays the results to the user.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      Why use our application?
+                    </h1>
+                    <p style="font-size: 20px;">
+                      Retinal imaging allows eye doctors to see signs of eye diseases that they could not see before. The test itself is painless and the results are easy for doctors to interpret. Our system analyses your retinal images and gives you accurate predicted results. Your doctor can store the images on a computer and compare them with other scans. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="detail-box">
+                    <h1>
+                     How does it work?
+                    </h1>
+                    <p style="font-size: 20px;">
+                      This application uses a Deep Learning approach in which the processed images will be fed into a Convolutional Neural Network (CNN) to predict whether the patient is suffering from the disease.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1"></li>
+          <li data-target="#customCarousel1" data-slide-to="2"></li>
+        </ol>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- Modules section -->
+
+  <section class="module_section layout_padding">
+    <div class="module_container">
+      <div class="container ">
+        <div class="heading_container heading_center" style="font-family: 'Quicksand', sans-serif;">
+          <h2>Modules Used</h2><br><br><br>
+        </div>
+        <div class="row">
+            <div class="col-2 col-2 mx-auto">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1024px-Keras_logo.svg.png" alt=""style="width:60px ">
+            </div>
+            <div class="col-2 col-2 mx-auto">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1920px-NumPy_logo_2020.svg.png" alt=""style="width:140px">
+            </div>
+            <div class="col-2 col-2 mx-auto">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1920px-Pandas_logo.svg.png" alt=""style="width:140px">
+            </div>
+            <div class="col-2 col-2 mx-auto">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" alt=""style="width: 140px">
+            </div>
+            <div class="col-2 col-2 mx-auto">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TensorFlow_logo.svg/1920px-TensorFlow_logo.svg.png" alt=""style="width:140px">
+            </div>
+          </div>
+        </div>
+        <br> 
+      </div>
+    </div>
+  </section>
+
+  <!-- end Modules section -->
+
+  <!-- footer section -->
+
+  <%- include('./partials/footer') %> 
+
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
